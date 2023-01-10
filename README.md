@@ -21,10 +21,24 @@ Developed by:
 RegisterNumber:  
 */
 ```
+```
+def gcd():
+    n1,n2=int(input()),int(input())
+    if n1<n2:
+        smaller=n1
+    else:
+        smaller=n2
+    for i in range(1,smaller+1):
+        if n1%i==0 and n2%i==0:
+            gcd=i
+    print("GCD of two numbers is:",gcd)
+```
 
 ## Output:
 ![gcd of two number](gcd.png)
 
 
 ## Result:
+![output](/Screenshot%20from%202023-01-10%2022-07-47.png)
+
 Thus the program to find the GCD of two numbers is written and verified using python programming.
