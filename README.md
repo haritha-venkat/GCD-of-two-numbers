@@ -35,10 +35,10 @@ def gcd():
 ```
 
 ## Output:
+![output](/Screenshot%20from%202023-01-10%2022-07-47.png)
 ![gcd of two number](gcd.png)
 
 
 ## Result:
-![output](/Screenshot%20from%202023-01-10%2022-07-47.png)
 
 Thus the program to find the GCD of two numbers is written and verified using python programming.
